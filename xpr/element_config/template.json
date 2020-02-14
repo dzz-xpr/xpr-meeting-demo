@@ -1,0 +1,13 @@
+{
+
+    "cache" : {
+        "ttl" : 90
+    },
+    "datasources": [
+        {
+            "source" : "template",
+            "name" : "PageData",
+            "options" : { "ListingSectionId" : 7 }
+        }
+    ]
+}

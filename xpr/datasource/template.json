@@ -1,0 +1,8 @@
+{
+
+    "adapter" : "XprApiAdapter",
+    "config" : {
+        "uri" : "/articles/",
+        "params" : { }
+    }
+}
