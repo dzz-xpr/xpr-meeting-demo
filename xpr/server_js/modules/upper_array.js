@@ -1,4 +1,4 @@
-exports = function(context, field) {
+exports.upper_array = function(context, field) {
     t = [];
     for(let key in context) {
         e = context[key];
