@@ -6,7 +6,13 @@
         {
             "source" : "template",
             "name" : "PageData",
-            "options" : { "ListingSectionId" : 7 }
+            "options" : { "ListingSectionId" : 7 },
+            "scripts" : [
+                {
+                    "path" : "/utils/to_uppercase",
+                    "options" : { "field", "Html" }
+                }
+            ]
         }
     ]
 }
