@@ -9,7 +9,7 @@
             "options" : { "ListingSectionId" : 7 },
             "scripts" : [
                 {
-                    "path" : "/utils/to_uppercase",
+                    "path" : "local",
                     "options" : { "field" : "Html" }
                 }
             ]
