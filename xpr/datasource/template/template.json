@@ -1,8 +1,10 @@
 {
-
     "adapter" : "XprApiAdapter",
     "config" : {
         "uri" : "/articles/",
-        "params" : { }
-    }
+        "params" : {
+            "related_Section_Id__eq" : "{{_opts.ListingSectionId}}"
+         }
+    },
+    "outputProcessors" : [ "NerdShouldBreak" ]
 }
