@@ -3,8 +3,13 @@
     "config" : {
         "uri" : "/articles/",
         "params" : {
-            "related_Section_Id__eq" : "{{_opts.ListingSectionId}}"
+            "related_Section_Id__eq" : "{{options.ListingSectionId}}"
          }
     },
-    "outputProcessors" : [ "NerdShouldBreak" ]
+    "scripts" : [
+        {
+            "path" : "/utils/to_uppercase",
+            "options" : { "field", "Title" }
+        }
+    ]
 }
