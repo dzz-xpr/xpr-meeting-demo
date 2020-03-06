@@ -9,7 +9,7 @@
     "scripts" : [
         {
             "path" : "/utils/to_uppercase",
-            "options" : { "field", "Title" }
+            "options" : { "field" : "Title" }
         }
     ]
 }
