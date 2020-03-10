@@ -10,7 +10,7 @@
         },
         {
             "path" : "template",
-            "name" : "PageData",
+            "name" : "PageDataHtmlUppered",
             "options" : { "ListingSectionId" : 7 },
             "scripts" : [
                 {
