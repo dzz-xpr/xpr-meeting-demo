@@ -3,7 +3,8 @@
     "config" : {
         "uri" : "/articles/",
         "params" : {
-            "related_Section_Id__eq" : "{{options.ListingSectionId}}"
+            "related_Section_Id__eq" : "{{options.ListingSectionId}}",
+            "select_fields" : "Title,Html"
          }
     },
     "scripts" : [
