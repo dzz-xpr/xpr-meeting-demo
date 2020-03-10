@@ -13,8 +13,16 @@
 
         <h2> Rendering Datasource Data </h2>
 
-        <p>First we'll render the `PageData` articles, which haven't been processed with SSJS</p>
+        <p>First we'll render the `PageData` articles, which have only been processed with SSJS attached to the datasource. See the datasource to see features</p>
         {{#each PageData}} 
+            <h3>{{Title}}</h3>
+            <div class="art_body">
+                {{{Html}}}
+            </div>
+        {{/each}}
+
+        <p>Here's a datasource with HTML uppercased by an ssjs</p>
+        {{#each PageDataHtmlUppered}} 
             <h3>{{Title}}</h3>
             <div class="art_body">
                 {{{Html}}}
