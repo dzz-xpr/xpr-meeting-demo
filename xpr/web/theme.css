@@ -1,8 +1,12 @@
 body {
-   background-color: #00F;
+   background-color: #FAF;
 }
 
 h1 {
     text-decoration: underline;
     font-size:8em;
+}
+
+div .element_demos {
+    background-color:#AFF;
 }

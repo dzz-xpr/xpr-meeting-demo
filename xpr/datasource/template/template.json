@@ -4,7 +4,7 @@
         "uri" : "/articles/",
         "params" : {
             "related_Section_Id__eq" : "{{options.ListingSectionId}}",
-            "select_fields" : "Title,Html"
+            "select_fields" : "Id,Title,Html"
          }
     },
     "scripts" : [
