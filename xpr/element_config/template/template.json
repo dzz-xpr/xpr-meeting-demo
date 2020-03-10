@@ -6,6 +6,11 @@
         {
             "path" : "template",
             "name" : "PageData",
+            "options" : { "ListingSectionId" : 7 }
+        },
+        {
+            "path" : "template",
+            "name" : "PageData",
             "options" : { "ListingSectionId" : 7 },
             "scripts" : [
                 {
