@@ -11,7 +11,7 @@
         {
             "path" : "template",
             "name" : "PageDataHtmlUppered",
-            "options" : { "ListingSectionId" : 7 },
+            "options" : { "ListingSectionId" : 5024 },
             "scripts" : [
                 {
                     "path" : "local",
