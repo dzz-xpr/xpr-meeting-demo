@@ -6,7 +6,7 @@
         {
             "path" : "/article/fetch_article",
             "name" : "Article",
-            "options" : { "articleId" : "{{XprOption key=articleId default=5}}" }
+            "options" : { "articleId" : "{{XprOption key=options.articleId default=7}}" }
         }
     ]
 }
