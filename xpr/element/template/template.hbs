@@ -4,34 +4,6 @@
         <link rel="stylesheet" href="/__xpr__/pub_engine/{{xpr.bundle}}/web/theme.css"/>
     </head>
     <body>
-        <h1>Bundles 2.0 - Features Demo</h1>
-
-        <p> Note that the above header is styled by a bundled .css. Anything in the bundle's "web" dir can be served up statically. Take a look at the inclusion of theme.css in the HTML for this page</p>
-        <hr>
-        <h2> Basic Context </h2>
-        <p>Underneath this paragraph is a comment which contains a dump of the entire @root context, including the xpr object</p>
-        <!-- {{{XprJson @root}}} -->
-
-        <h2> Rendering Datasource Data </h2>
-
-        <p>Note: SSJS can now be attached to either the dataousrce binding at the element level or directly at the datasource layer</p>
-        <p>The "PageData*" 
-
-        <p>First we'll render the `PageData` articles, which have only been processed with SSJS attached to the datasource. See the datasource to see features</p>
-        {{#each PageData}} 
-            <h3>{{Title}}</h3>
-            <div class="art_body">
-                {{{Html}}}
-            </div>
-        {{/each}}
-        <hr>
-        <p>Here's a datasource with HTML uppercased by an ssjs, and with a different datasource option</p>
-        {{#each PageDataHtmlUppered}} 
-            <h3>{{Title}}</h3>
-            <div class="art_body">
-                {{{Html}}}
-            </div>
-        {{/each}}
 
 
         <p>Here is an embedded element rendering articles using OPTIONS passing:</p> 
