@@ -1,0 +1,12 @@
+{
+    "cache" : {
+        "ttl" : 90
+    },
+    "datasources": [
+        {
+            "path" : "/article/fetch_article",
+            "name" : "ArticleDetails",
+            "options" : { "articleId" : "{{XprOption key=options.articleId default=7}}" }
+        }
+    ]
+}
