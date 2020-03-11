@@ -5,7 +5,7 @@
     "datasources": [
         {
             "path" : "/article/fetch_article",
-            "name" : "ArticleDetails",
+            "name" : "Article",
             "options" : { "articleId" : "{{XprOption key=options.articleId default=7}}" }
         }
     ]
