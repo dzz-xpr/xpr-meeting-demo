@@ -1,0 +1,12 @@
+{
+    "adapter" : "XprApiAdapter",
+    "config" : {
+        "uri" : "/articles/{{XprOption key=options.articleId default=7}}"
+    },
+    "scripts" : [
+        {
+            "path" : "/utils/to_uppercase",
+            "options" : { "field" : "Title" }
+        }
+    ]
+}
