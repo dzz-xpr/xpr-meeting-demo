@@ -37,14 +37,14 @@
         <p>Here is an embedded element rendering articles using OPTIONS passing:</p> 
 
         {{#each PageData}} 
-            {{{XprElement bundlePath="/article/active_detail/" options.articleId=Id}}} 
+            {{{XprElement bundlePath="/article/active_detail" options.articleId=Id}}} 
         {{/each}}
 
         <hr>
 
         <p>Here is an embedded element rendering articles using CONTEXT passing:</p>
         {{#each PageDataHtmlUppered}}
-            {{{XprElement bundlePath="/article/passive_detail/" context.article=this}}}
+            {{{XprElement bundlePath="/article/passive_detail" context.article=this}}}
         {{/each}}
 
 
