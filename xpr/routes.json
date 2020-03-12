@@ -1,7 +1,7 @@
 [
     { 
         "route" : "add_user", 
-        "method" : "POST", 
+        "method" : "GET", 
         "script" : {
             "path" : "/utils/add_user", 
             "options" : {
