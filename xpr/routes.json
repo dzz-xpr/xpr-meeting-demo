@@ -1,0 +1,12 @@
+[
+    { 
+        "route" : "add_user", 
+        "method" : "POST", 
+        "script" : {
+            "path" : "/utils/add_user", 
+            "options" : {
+            }
+        },
+        "element" : "/utils/json_result"
+    } 
+]
