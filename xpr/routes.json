@@ -1,6 +1,6 @@
 [
     { 
-        "route" : "add_user", 
+        "route" : "/add_user", 
         "method" : "GET", 
         "script" : {
             "path" : "/utils/add_user", 
