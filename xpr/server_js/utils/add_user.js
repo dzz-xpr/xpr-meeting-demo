@@ -1,7 +1,5 @@
 let api = require("/xpr/request").XprApi;
 
 exports.process = function(context, options) {
-    return {
-        "sample" : "response"
-    };
+    return api;
 }
