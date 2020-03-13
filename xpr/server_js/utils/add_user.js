@@ -1,5 +1,6 @@
-let api = require("/xpr/request").XprApi;
+let api = require("/xpr/requestfake").XprApi;
 
 exports.process = function(context, options) {
-    return api;
+
+
 }
